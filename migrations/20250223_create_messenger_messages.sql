@@ -1,0 +1,9 @@
+CREATE TABLE messenger_messages (
+    id SERIAL PRIMARY KEY,
+    body TEXT NOT NULL,
+    headers TEXT NOT NULL,
+    queue_name VARCHAR(200) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    available_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    delivered_at TIMESTAMP DEFAULT NULL
+);
