@@ -33,4 +33,6 @@
     - Verifier en base l'enregistrement des messages dans messenger_messages
     - Consommer les messages enregistré en base : php bin/console messenger:consume async.
 
-## Développé par Ramdane Boubziz.
+## Licence : 
+
+### Libre, développer par Boubziz Ramdane 
